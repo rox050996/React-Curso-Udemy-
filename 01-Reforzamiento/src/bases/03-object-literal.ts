@@ -7,7 +7,7 @@ interface Person{
 const ironman : Person = {
     firstName:'Rox',
     lastName:'Stark',
-    age:'45'
+    age:45
 }
 
 // const spiderman = structuredClone(person);
