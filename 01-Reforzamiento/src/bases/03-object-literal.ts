@@ -1,13 +1,19 @@
-const person={
-    firstName:'Rox',
-    lastName:'Stark',
-    age:45
+interface Person{
+    firstName:string;
+    lastName:string;
+    age:number;
 }
 
-const spiderman = structuredClone(person);
+const ironman : Person = {
+    firstName:'Rox',
+    lastName:'Stark',
+    age:'45'
+}
 
-spiderman.firstName='Peter';
-spiderman.lastName='Parker';
-spiderman.age=23;
+// const spiderman = structuredClone(person);
 
-console.log(person, spiderman)
+// spiderman.firstName='Peter';
+// spiderman.lastName='Parker';
+// spiderman.age=23;
+
+// console.log(person, spiderman)
